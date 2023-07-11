@@ -37,18 +37,20 @@ body {
   font-size: 16px;
 }
 
-.first-sec-title {
+.sec-title {
   text-align: center;
   color: #272727;
   font-size: 40px;
   font-weight: 800;
 }
-.first-sec-des {
+.sec-des {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+  width: 50%;
+  margin: auto;
 }
 
 .first-image {
@@ -106,4 +108,17 @@ h4 {
   width: 50%;
   margin: auto;
   margin-bottom: 20px;
+}
+.flower-img {
+  width: 252px;
+  height: 306px;
+}
+
+.third-sec-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
