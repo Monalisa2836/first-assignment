@@ -52,6 +52,7 @@ body {
   width: 50%;
   margin: auto;
 }
+/* first section styles  */
 
 .first-image {
   width: 300px;
@@ -86,6 +87,9 @@ body {
   line-height: 35px;
   text-decoration-line: underline;
 }
+
+/* second section style */
+
 .second-section {
   display: flex;
   align-items: center;
@@ -109,16 +113,45 @@ h4 {
   margin: auto;
   margin-bottom: 20px;
 }
+/* third section styles  */
+
 .flower-img {
   width: 252px;
   height: 306px;
 }
 
-.third-sec-img{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 500px;
-    padding-left: 120px;
-    padding-right: 120px;
+.third-sec-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/* fourth section styles  */
+.fourth-section {
+  background-image: url("Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  margin: 100px 150px;
+  height: 300px;
+  text-align: center;
+  padding-top: 20px;
+}
+input {
+  width: 500px;
+  height: 37px;
+  border-radius: 8px;
+  background: #fff;
+  border: 0px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.email-button {
+  padding-top: 25px;
 }
