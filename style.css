@@ -155,3 +155,23 @@ input {
 .email-button {
   padding-top: 25px;
 }
+
+/* fifth section styles */
+
+.fifth-section {
+  align-items: center;
+  height: 350px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  text-align: center;
+  padding: 50px;
+}
+.last-btn {
+  border-radius: 8px;
+  background: #2b2829;
+  border: 0px;
+  padding: 10px 20px;
+  color: #e8d2d2;
+  font-size: 16px;
+  margin-top: 25px;
+}
